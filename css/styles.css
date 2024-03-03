@@ -7,13 +7,6 @@ body {
     background-color: #74AE6F;
 }
 
-header {
-    color: white;
-    padding: 400px 20px;
-    text-align: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
 .header-inner {
     background-image: url('../images/GardenPicture.jpg'); 
     background-size: cover; 
@@ -22,6 +15,7 @@ header {
     margin: 0;
     padding: 400px 0; 
     text-align: center;
+    color: white;
 }
 
 .container {
