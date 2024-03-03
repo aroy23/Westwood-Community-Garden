@@ -144,3 +144,8 @@ body {
     font-weight: 300;
 	margin: 0;
 }
+
+.stats {
+    background: url('../images/74AE6F.jpg') no-repeat center center / cover;
+	padding: 300px 0;
+}
