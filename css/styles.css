@@ -8,10 +8,12 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-image: url('../images/GardenPicture.jpg'); /* Background image URL */
+    background-size: cover; /* Ensure the background image covers the entire header */
     color: white;
-    padding: 20px;
+    padding: 400px 20px;
     text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header-inner {
@@ -39,6 +41,11 @@ header {
 
 .image h2 {
     text-align: center;
+}
+
+.header-inner p {
+    font-family: Lato, serif;
+    font-size: 24px; /* Adjust font size as needed */
 }
 
 @media screen and (max-width: 768px) {
