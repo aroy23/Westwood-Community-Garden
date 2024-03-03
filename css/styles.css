@@ -149,3 +149,8 @@ body {
     background: url('../images/74AE6F.jpg') no-repeat center center / cover;
 	padding: 300px 0;
 }
+
+.stats .header-content {
+	text-align: center;
+	padding-top: 120px;
+}
