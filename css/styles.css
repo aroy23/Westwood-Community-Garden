@@ -8,9 +8,10 @@ body {
 }
 
 .header-inner {
-    background-image: url('../images/GardenPicture.jpg'); 
+    background-image: url('../images/GardenPicture.jpg');
     background-size: cover; 
-    background-position: center; 
+    background-position: center;
+    background-attachment: fixed;
     width: 100vw; 
     margin: 0;
     padding: 400px 0; 
@@ -42,7 +43,7 @@ body {
 
 .header-inner p {
     font-family: Lato, serif;
-    font-size: 24px; /* Adjust font size as needed */
+    font-size: 80px; /* Adjust font size as needed */
 }
 
 @media screen and (max-width: 768px) {
