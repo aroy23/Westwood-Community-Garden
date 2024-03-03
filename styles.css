@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'PriliDisplayRegular';
+    src: url('fonts/PriliDisplayRegular.ttf') format('truetype');
+}
+
 h1 {
-    font-family:'Gill Sans';
+    font-family: 'PriliDisplayRegular', sans-serif;
     color: pink;
     text-align: center;
 }
