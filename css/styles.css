@@ -48,7 +48,7 @@ body {
 
 .header-area {
     background: url('../images/GardenPicture.jpg') no-repeat center center / cover;
-	padding: 60px 0;
+	padding: 300px 0;
 	
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .header-area .menu-area nav > ul > li > a {
-    color: #111010;
+    color: #f0e3e3;
     text-decoration: none;
     padding: 16px 39px;
 	transition: all .6s;
