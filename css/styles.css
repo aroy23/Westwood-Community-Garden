@@ -175,8 +175,9 @@ body {
 }
 
 .image-container img {
-    width: 600px; /* Set image width */
+    max-width: 500px; /* Set a maximum width to limit the image size */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Prevents inline alignment issues */
 }
+
 
