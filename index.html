@@ -6,9 +6,65 @@
     <title>Westwood Community Garden</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animations.css">
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+
+      header {
+          background-color: #333;
+          color: white;
+          padding: 10px 20px;
+          position: sticky;
+          top: 0;
+          z-index: 1000;
+      }
+
+      .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+      }
+
+      nav {
+          display: flex;
+          justify-content: center;
+      }
+
+      nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+      }
+
+      nav ul li {
+          margin: 0 10px;
+      }
+
+      nav ul li a {
+          color: white;
+          text-decoration: none;
+          font-size: 18px;
+      }
+
+      nav ul li a:hover {
+          text-decoration: underline;
+      }
+  </style>
 </head>
 <body>
     <header>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Worker Profiles</a></li>
+            <li><a href="#services">Crops</a></li>
+            <li><a href="#contact">Garden</a></li>
+          </ul>
+        </nav>
         <div class="header-inner">
             <h1>Westwood Community Garden</h1>
             <p>Grow Together, Sustainably</p>
