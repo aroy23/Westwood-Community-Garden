@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'PriliDisplayRegular';
-    src: url('fonts/PriliDisplayRegular.ttf') format('truetype');
-}
-
 h1 {
-    font-family: 'PriliDisplayRegular';
+    font-family: 'Courier', monospace;
     color: green;
     text-align: center;
 }
