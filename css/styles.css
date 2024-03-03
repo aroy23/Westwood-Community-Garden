@@ -19,7 +19,7 @@ body {
     background-attachment: fixed;
     width: 100vw; 
     margin: 0;
-    padding: 400px 0; 
+    padding: 20px; 
     text-align: center;
     color: white;
 }
@@ -46,9 +46,20 @@ body {
     text-align: center;
 }
 
+.header-inner h1 {
+    font-family: 'farmgarden';
+    font-size: 100px; /* Adjust font size as needed */
+    margin-top: 200px; /* Decrease the margin-top value */
+    margin-bottom: 5px; /* Decrease the margin-bottom value */
+    line-height: 2; /* Set line height to 1 to minimize spacing */
+}
+
 .header-inner p {
-    font-family: Lato, serif;
-    font-size: 24px; /* Adjust font size as needed */
+    font-family: 'farmgarden';
+    font-size: 55px; /* Adjust font size as needed */
+    margin-top: 2px; /* Decrease the margin-top value */
+    margin-bottom: 300px; /* Decrease the margin-bottom value */
+    line-height: 1; /* Set line height to 1 to minimize spacing */
 }
 
 @media screen and (max-width: 768px) {
