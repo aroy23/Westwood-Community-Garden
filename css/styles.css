@@ -147,7 +147,7 @@ body {
 
 .stats {
     background: url('../images/74AE6F.jpg') no-repeat center center / cover;
-	padding: 500px 0;
+	padding: 550px 0;
 	position: relative;
 }
 
@@ -170,14 +170,26 @@ body {
 .image-container {
     position: absolute;
     top: 100%; /* Adjust the top position */
-    left: 0; /* Adjust the right position */
+    left: 0; 
     margin-top: 20px; /* Center vertically */
 }
 
 .image-container img {
-    max-width: 500px; /* Set a maximum width to limit the image size */
+    width: 900px; /* Set image width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Prevents inline alignment issues */
 }
 
+.image-container1 {
+    position: absolute;
+    top: 100%; /* Adjust the top position */
+    right: 0; /* Adjust the right position */
+    margin-top: 20px; /* Center vertically */
+}
+
+.image-container1 img {
+    width: 900px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents inline alignment issues */
+}
 
