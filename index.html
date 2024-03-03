@@ -1,69 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Community Garden</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="script.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      /* Responsive styles */
-      @media screen and (max-width: 768px) {
-        .header-content {
-          text-align: center;
-        }
-        .image-container,
-        .image-container1 {
-          text-align: center;
-        }
+<head>
+  <meta charset="UTF-8" />
+  <title>Community Garden</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    /* Global styles */
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .header-content {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .header-content p {
+      margin-bottom: 20px;
+    }
+    .image-container {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+      .header-content {
+        padding: 0 10px;
       }
-    </style>
-  </head>
-  <body>
-    <header class="header-area">
-      <div class="container">
-        <div class="menu-area">
-          <nav>
-            <ul>
-              <li><a href="#" target="_self">HOME</a></li>
-              <li><a href="#" target="_self">WORKER PROFILES</a></li>
-              <li><a href="#" target="_self">CROPS</a></li>
-              <li><a href="#" target="_self">GARDEN</a></li>
-              <li><a href="#" target="_self">CONTACT US</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header-content">
-          <h1>Westwood Community Garden</h1>
-          <p>
-            Welcome to the Westwood Community Garden, where we strive to embrace the intersection of 
-            environmental and social justice through tackling food insecurity and accessibility. 
-            All the food produced here is free to take. All crops are planted, maintained, and harvested completely
-            by volunteers from the community. </br> </br>If you have any questions or would like to volunteer for a shift, 
-            please contact us via email. Visitors are alwasy welcome, however we ask that you respect the community 
-            space and our volunteers. 
-          </p>
-        </div>
-      </div>
-    </header>
-    <header class="stats">
-      <div class="header-content">
-        <h1>Stats</h1>
-          <p>
-              Various statistics about our community garden and who it serves
-          </p>
-      </div>
-    </header>
-
+    }
+  </style>
+</head>
+<body>
+  <header class="header-area">
     <div class="container">
-      <div class="image-container">
-        <img src="images/PieChart.jpg" alt="PieChart">
+      <div class="menu-area">
+        <nav>
+          <ul>
+            <li><a href="#" target="_self">HOME</a></li>
+            <li><a href="#" target="_self">WORKER PROFILES</a></li>
+            <li><a href="#" target="_self">CROPS</a></li>
+            <li><a href="#" target="_self">GARDEN</a></li>
+            <li><a href="#" target="_self">CONTACT US</a></li>
+          </ul>
+        </nav>
       </div>
-  
-      <div class="image-container1">
-        <img src="images/WhoWeServe.jpg" alt="WhoWeServe">
+      <div class="header-content">
+        <h1>Westwood Community Garden</h1>
+        <p>
+          Welcome to the Westwood Community Garden, where we strive to embrace the intersection of 
+          environmental and social justice through tackling food insecurity and accessibility. 
+          All the food produced here is free to take. All crops are planted, maintained, and harvested completely
+          by volunteers from the community. <br><br>If you have any questions or would like to volunteer for a shift, 
+          please contact us via email. Visitors are always welcome; however, we ask that you respect the community 
+          space and our volunteers. 
+        </p>
       </div>
     </div>
+  </header>
+  <header class="stats">
+    <div class="container">
+      <div class="header-content">
+        <h1>Stats</h1>
+        <p>
+          Various statistics about our community garden and who it serves
+        </p>
+      </div>
+    </div>
+  </header>
 
-  </body>
+  <div class="container">
+    <div class="image-container">
+      <img src="images/PieChart.jpg" alt="PieChart">
+    </div>
+
+    <div class="image-container1">
+      <img src="images/WhoWeServe.jpg" alt="WhoWeServe">
+    </div>
+  </div>
+</body>
 </html>

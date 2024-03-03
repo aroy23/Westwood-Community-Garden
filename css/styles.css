@@ -52,56 +52,56 @@ body {
 	
 }
 
-.header-area .menu-area {
+.header-area .container .menu-area {
     width: 52%;
     position: absolute;
     left: 25%;
     top: 40px;
 }
 
-.header-area .menu-area nav > ul > li {
+.header-area .container .menu-area nav > ul > li {
     float: left;
     margin-left: 3px;
     list-style: none;
 }
 
-.header-area .menu-area nav {
+.header-area .container .menu-area nav {
     background: #00000026;
     padding: 16px;
     border-radius: 7px;
 }
 
-.header-area .menu-area nav > ul > li > a {
+.header-area .container .menu-area nav > ul > li > a {
     color: #f0e3e3;
     text-decoration: none;
     padding: 16px 39px;
 	transition: all .6s;
 }
 
-.header-area .menu-area nav > ul > li > a:hover {
+.header-area .container .menu-area nav > ul > li > a:hover {
 	font-weight: bold;
     color: #e2b17b;
     background: #54586352;
 	border-bottom: 2px solid #e2b17b;
 }
 
-.header-area .menu-area ul ul {
+.header-area .container .menu-area ul ul {
     position: absolute;
     top: 104%;
     background: #33035147;
 	display: none;
 }
 
-.header-area .menu-area ul :hover ul{
+.header-area .container .menu-area ul :hover ul{
 	display: block;
 }
 
 
-.header-area .menu-area nav ul ul li {
+.header-area .container .menu-area nav ul ul li {
     list-style: none;
 }
 
-.header-area .menu-area nav ul ul li a {
+.header-area .container .menu-area nav ul ul li a {
     text-decoration: none;
     width: 180px;
     display: block;
@@ -112,19 +112,19 @@ body {
 	transition: all .6s;
 }
 
-.header-area .menu-area nav ul ul li a:hover {
+.header-area .container .menu-area nav ul ul li a:hover {
 	color: #27c4f4;
 	background: #6a789d52;
 }
 
 
-.header-area .menu-area nav > ul:after {
+.header-area .container .menu-area nav > ul:after {
 	content:'';
 	display: inline-block;
 	clear: both;
 }
 
-.header-area .header-content h1{
+.header-area .container .header-content h1{
     color: #FFF;
     font-size: 55px;
     font-weight: bold;
@@ -132,12 +132,12 @@ body {
     margin-bottom: 20px;
 }
 
-.header-area .header-content {
+.header-area .container .header-content {
 	text-align: center;
 	padding-top: 120px;
 }
 
-.header-area .header-content p{
+.header-area .container .header-content p{
     font-style: italic;
     color: #d0e7e9;
     font-size: 17px;
@@ -151,7 +151,7 @@ body {
 	position: relative;
 }
 
-.stats .header-content {
+.stats .container .header-content {
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -159,7 +159,7 @@ body {
     text-align: center;
 }
 
-.stats .header-content h1{
+.stats .container .header-content h1{
 	font-weight: 300;
     color: #FFF;
     font-size: 55px;
