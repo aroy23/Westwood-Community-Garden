@@ -8,8 +8,6 @@ body {
 }
 
 header {
-    background-image: url('../images/GardenPicture.jpg'); /* Background image URL */
-    background-size: cover; /* Ensure the background image covers the entire header */
     color: white;
     padding: 400px 20px;
     text-align: center;
@@ -17,8 +15,13 @@ header {
 }
 
 .header-inner {
-    max-width: 800px;
-    margin: 0 auto;
+    background-image: url('../images/GardenPicture.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    width: 100vw; 
+    margin: 0;
+    padding: 400px 0; 
+    text-align: center;
 }
 
 .container {
