@@ -127,7 +127,7 @@ body {
 .header-area .header-content h1{
     color: #FFF;
     font-size: 55px;
-    font-weight: 100;
+    font-weight: bold;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -147,7 +147,7 @@ body {
 
 .stats {
     background: url('../images/74AE6F.jpg') no-repeat center center / cover;
-	padding: 300px 0;
+	padding: 500px 0;
 	position: relative;
 }
 
@@ -160,9 +160,23 @@ body {
 }
 
 .stats .header-content h1{
+	font-weight: 300;
     color: #FFF;
     font-size: 55px;
-    font-weight: 100;
-    margin: 0;
+    margin: 20px 0 10px;
+}
+
+
+.image-container {
+    position: absolute;
+    top: 100%; /* Adjust the top position */
+    left: 0; /* Adjust the right position */
+    margin-top: 20px; /* Center vertically */
+}
+
+.image-container img {
+    width: 600px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents inline alignment issues */
 }
 
