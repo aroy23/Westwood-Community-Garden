@@ -154,3 +154,11 @@ body {
 	text-align: center;
 	padding-top: 120px;
 }
+
+.stats .header-content h1{
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 20px;
+}
