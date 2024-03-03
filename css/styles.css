@@ -1,14 +1,19 @@
 /* styles.css */
+@font-face {
+    font-family: 'farmgarden';
+    src:url('path/to/farmgarden.ttf') format('truetype');
+}
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lato';
     margin: 0;
     padding: 0;
     background-color: #74AE6F;
+    font-size: 12px; /* Adjust font size as needed */
 }
 
 .header-inner {
-    background-image: url('../images/GardenPicture.jpg');
+    background-image: url('../images/GardenPicture.jpg'); 
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
@@ -43,7 +48,7 @@ body {
 
 .header-inner p {
     font-family: Lato, serif;
-    font-size: 80px; /* Adjust font size as needed */
+    font-size: 24px; /* Adjust font size as needed */
 }
 
 @media screen and (max-width: 768px) {
