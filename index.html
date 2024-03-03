@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Responsive styles */
+      @media screen and (max-width: 768px) {
+        .header-content {
+          text-align: center;
+        }
+        .image-container,
+        .image-container1 {
+          text-align: center;
+        }
+      }
+    </style>
   </head>
   <body>
     <header class="header-area">
@@ -43,12 +55,14 @@
       </div>
     </header>
 
-    <div class="image-container">
-      <img src="images/PieChart.jpg" alt="PieChart">
-    </div>
-
-    <div class="image-container1">
-      <img src="images/WhoWeServe.jpg" alt="WhoWeServe">
+    <div class="container">
+      <div class="image-container">
+        <img src="images/PieChart.jpg" alt="PieChart">
+      </div>
+  
+      <div class="image-container1">
+        <img src="images/WhoWeServe.jpg" alt="WhoWeServe">
+      </div>
     </div>
 
   </body>
