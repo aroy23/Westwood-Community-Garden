@@ -1,10 +1,9 @@
 const resetIntervalDays = 45;
 
+setInterval(updateCountdown, 1000);
 function updateCountdown() {
     const now = new Date().getTime();
-
     let distance = 0;
-
     if (typeof(Storage) !== "undefined") {
         let nextReset = localStorage.getItem("nextReset");
         if (nextReset != null) {
@@ -36,10 +35,18 @@ function updateCountdown() {
 `)
 
     document.getElementById("countdown").innerHTML = `
-        Next reset in: ${days}d ${hours}h ${minutes}m ${seconds}s
+        Next Harvest In: ${days}d ${hours}h ${minutes}m ${seconds}s
     `;
 }
 
 updateCountdown();
 
-setInterval(updateCountdown, 1000); // Update every second
+
+
+
+
+
+
+
+
+

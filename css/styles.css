@@ -114,6 +114,71 @@ body {
     line-height: 1; /* Set line height to 1 to minimize spacing */
 }
 
+#countdown {
+    color: #0c490b;
+    font-size: 30px;
+    font-family: 'Verdana', 'sans-serif';
+    text-align: center;
+    padding: 20px 0;
+}
+
+#countdown2 {
+    color: #0c490b;
+    font-size: 30px;
+    font-family: 'Verdana', 'sans-serif';
+    text-align: center;
+    padding: 20px 0;
+}
+
+#countdown3 {
+    color: #0c490b;
+    font-size: 30px;
+    font-family: 'Verdana', 'sans-serif';
+    text-align: center;
+    padding: 20px 0;
+}
+
+#countdown4 {
+    color: #0c490b;
+    font-size: 30px;
+    font-family: 'Verdana', 'sans-serif';
+    text-align: center;
+    padding: 20px 0;
+}
+
+#countdown5 {
+    color: #0c490b;
+    font-size: 30px;
+    font-family: 'Verdana', 'sans-serif';
+    text-align: center;
+    padding: 20px 0;
+}
+
+#countdown6 {
+    color: #0c490b;
+    font-size: 30px;
+    font-family: 'Verdana', 'sans-serif';
+    text-align: center;
+    padding: 20px 0;
+}
+
+#countdown7 {
+    color: #0c490b;
+    font-size: 30px;
+    font-family: 'Verdana', 'sans-serif';
+    text-align: center;
+    padding: 20px 0;
+}
+
+#countdown8 {
+    color: #0c490b;
+    font-size: 30px;
+    font-family: 'Verdana', 'sans-serif';
+    text-align: center;
+    padding: 20px 0;
+}
+
+
 @media screen and (max-width: 768px) {
     .image {
         width: 100%;
