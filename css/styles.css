@@ -178,6 +178,30 @@ body {
     padding: 20px 0;
 }
 
+#apple {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33%; /* Adjust width for the top-left section */
+    height: 34%; /* Adjust height for the top-left section */
+}
+
+#orange {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 17%; /* Adjust width for the top-right section */
+    height: 64%; /* Adjust height for the top-right section */
+}
+
+#pumpkin {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 17%; /* Adjust width for the top-right section */
+    height: 64%; /* Adjust height for the top-right section */
+}
+
 
 @media screen and (max-width: 768px) {
     .image {
