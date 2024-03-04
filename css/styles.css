@@ -5,11 +5,10 @@
 }
 
 body {
-    font-family: 'Lato';
     margin: 0;
     padding: 0;
     background-color: #74AE6F;
-    font-size: 12px; /* Adjust font size as needed */
+    font-size: 12px;
 }
 
 .header-inner {
@@ -48,10 +47,10 @@ body {
 
 .header-inner h1 {
     font-family: 'farmgarden';
-    font-size: 100px; /* Adjust font size as needed */
-    margin-top: 200px; /* Decrease the margin-top value */
-    margin-bottom: 5px; /* Decrease the margin-bottom value */
-    line-height: 2; /* Set line height to 1 to minimize spacing */
+    font-size: 100px; 
+    margin-top: 200px; 
+    margin-bottom: 5px; 
+    line-height: 2; 
 }
 
 .header-inner p {
@@ -71,7 +70,43 @@ body {
 }
 
 .header-inner p1 {
-    font-family: 'Verdana', 'sans-serrif';
+    font-family: 'Verdana', 'sans-serif';
+    font-size: 30px; /* Adjust font size as needed */
+    margin-top: 2px; /* Decrease the margin-top value */
+    margin-bottom: 300px; /* Decrease the margin-bottom value */
+    line-height: 1; /* Set line height to 1 to minimize spacing */
+}
+
+.container1 .calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.image2 {
+    width: 150%;
+    margin-bottom: 20px;
+}
+
+.image2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-inner h3 {
+    font-family: 'farmgarden';
+    font-size: 100px; 
+    margin-top: 75px; 
+    margin-bottom: 5px; 
+    line-height: 2; 
+}
+
+.header-inner p3 {
+    font-family: 'Verdana', 'sans-serif';
     font-size: 30px; /* Adjust font size as needed */
     margin-top: 2px; /* Decrease the margin-top value */
     margin-bottom: 300px; /* Decrease the margin-bottom value */

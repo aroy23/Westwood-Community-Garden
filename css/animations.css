@@ -16,3 +16,11 @@
     transform: scale(1.05);
 }
 
+.image2 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image2:hover {
+    transform: scale(1.05);
+}
+
