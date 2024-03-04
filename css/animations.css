@@ -7,3 +7,12 @@
 .image:hover {
     transform: scale(1.05);
 }
+
+.calendar {
+    transition: transform 0.3s ease-in-out;
+}
+
+.calendar:hover {
+    transform: scale(1.05);
+}
+
