@@ -2,7 +2,7 @@
 
 https://youtu.be/KQYGz3vqRfg
 
-# Community Garden Website
+# Community Garden
 
 ## Introduction
 Welcome to our project submission for Hoth XI! Our project embodies the concept of environmental intersectionalism by serving as a website designed to manage and promote a local community garden in Westwood, Los Angeles. Community gardens play a crucial role in addressing food insecurity in disadvantaged communities while promoting sustainability through organic, small-scale practices.
