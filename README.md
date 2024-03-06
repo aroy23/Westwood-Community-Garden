@@ -17,7 +17,7 @@ Welcome to our project submission for Hoth XI! Our project embodies the concept 
 ## Technologies Used
 - **HTML**: Used for structuring the website's content and layout.
 - **CSS**: Stylesheets applied to enhance visual presentation and design.
-- **JavaScript**: Implemented for interactive features such as countdown timers, image animations, and Google Calendar integration.
+- **JavaScript**: Implemented for interactive features such as the harvest countdown timer
 - **Google Calendar Integration**: Links the website's volunteer schedule to a Google Calendar, providing real-time updates and event details.
 
 ## Noteworthy Features
